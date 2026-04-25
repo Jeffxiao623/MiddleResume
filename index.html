@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>個人履歷網站</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="sticky-nav">
+      <a href="#about">關於我</a>
+      <a href="#skills">綜合技能</a>
+      <a href="#portfolio">個人經歷</a>
+      <a href="#experience">工作經歷</a>
+      <a href="#contact">聯絡資訊</a>
+    </nav>
+
+    <div class="main-container">
+      <header id="about">
+        <div class="header-left">
+          <img
+            src="image/Me/my-profile-img.jpg"
+            onerror="this.src = 'assets/img/my-profile-img.jpg'"
+            alt="Profile Image"
+            class="profile-img"
+          />
+          <p class="slogan">最短的捷徑就是繞遠路<br />繞遠路就是我最短的捷徑</p>
+        </div>
+        <div class="header-right">
+          <div class="name-box">
+            <h1>蕭勛夫 HSIAO HSUN FU</h1>
+          </div>
+          <div class="personal-info-grid">
+            <div class="info-item"><strong>生日:</strong> 2002 06 23</div>
+            <div class="info-item"><strong>狀態:</strong> 學生</div>
+            <div class="info-item"><strong>星座:</strong> 巨蟹座</div>
+            <div class="info-item"><strong>學歷:</strong> 中原大學學士</div>
+          </div>
+          <div class="about-box">
+            <h2>關於我</h2>
+            <p>
+              就讀中原大學資訊管理學系。學習項目涵蓋網站前後端開發、資料庫設計與管理、系統維護與優化、網頁設計及AI自動化設計等。具備分析與長遠規劃之習慣，並著眼於資訊管理未來多樣化之工作內容與發展性，期許相關技能可應用於各產業，協助提升整體效率。
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <section class="skills-section" id="skills">
+        <h2>技能總覽</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-card-inner">
+              <div class="skill-card-front">
+                <img src="image/icons/html.png" alt="HTML" class="skill-icon" />
+                <h3>HTML / CSS / JS語法</h3>
+              </div>
+              <div class="skill-card-back">
+                <div class="progress-circle" data-percent="70">
+                  <span class="percent-text">熟練度: 70%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card-inner">
+              <div class="skill-card-front">
+                <img src="image/icons/python.png" alt="Python" class="skill-icon" />
+                <h3>Python語言</h3>
+              </div>
+              <div class="skill-card-back">
+                <div class="progress-circle" data-percent="60">
+                  <span class="percent-text">熟練度: 60%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card-inner">
+              <div class="skill-card-front">
+                <img src="image/icons/c-sharp.png" alt="C#" class="skill-icon" />
+                <h3>C#語法</h3>
+              </div>
+              <div class="skill-card-back">
+                <div class="progress-circle" data-percent="60">
+                  <span class="percent-text">熟練度: 60%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card-inner">
+              <div class="skill-card-front">
+                <img src="image/icons/sql.png" alt="SQL" class="skill-icon" />
+                <h3>SQL資料庫</h3>
+              </div>
+              <div class="skill-card-back">
+                <div class="progress-circle" data-percent="65">
+                  <span class="percent-text">熟練度: 65%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card-inner">
+              <div class="skill-card-front">
+                <img src="image/icons/java.png" alt="Java" class="skill-icon" />
+                <h3>Java語法</h3>
+              </div>
+              <div class="skill-card-back">
+                <div class="progress-circle" data-percent="60">
+                  <span class="percent-text">熟練度: 60%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-card-inner">
+              <div class="skill-card-front">
+                <img src="image/icons/r.png" alt="R" class="skill-icon" />
+                <h3>人工智慧R語言</h3>
+              </div>
+              <div class="skill-card-back">
+                <div class="progress-circle" data-percent="60">
+                  <span class="percent-text">熟練度: 60%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio-section" id="portfolio">
+        <h2>個人經歷</h2>
+        <div class="portfolio-grid">
+          <div class="portfolio-card" data-img-folder="image/Project1/" data-img-count="16">
+            <div class="portfolio-card-inner">
+              <div class="portfolio-card-front">
+                <div class="portfolio-img-container">
+                  <img src="image/Project1/1.png" class="slide-img" alt="多人用餐食譜建議系統" />
+                </div>
+                <div class="portfolio-info">
+                  <h4>多人用餐食譜建議系統</h4>
+                  <p>軟體專案管理期末專案。應用 n8n 技術與大型語言模型，給予正確資料和指令產出預期結果，並具備可視化成果演示。</p>
+                </div>
+              </div>
+              <div class="portfolio-card-back">
+                <a
+                  href="https://drive.google.com/drive/folders/1fEsNz6uncjp1lIN65B6DLn3KJHw5kXqF?usp=drive_link"
+                  target="_blank"
+                  class="video-link"
+                >
+                  <video muted loop playsinline class="back-video">
+                    <source src="image/Project1/video.mp4" type="video/mp4" />
+                  </video>
+                  <div class="video-overlay">點擊前往完整專案</div>
+                </a>
+                <div class="back-desc">
+                  得知在AI崛起的時代下我們學生該如何使用大型語言模型和應用AI自動生成工具來去創造出有應用價值的程式，在研究此項的過程中經歷了如何要去使用n8n技術。
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card" data-img-folder="image/Project2/" data-img-count="26">
+            <div class="portfolio-card-inner">
+              <div class="portfolio-card-front">
+                <div class="portfolio-img-container">
+                  <img src="image/Project2/1.png" class="slide-img" alt="零食購物網站前端實作" />
+                </div>
+                <div class="portfolio-info">
+                  <h4>AI漫畫行銷系統</h4>
+                  <p>
+                    多媒體期末專案。初次接觸前端開發，學習 HTML、CSS 和 JavaScript。包含購物車與商品篩選等 JavaScript 應用功能。
+                  </p>
+                </div>
+              </div>
+              <div class="portfolio-card-back">
+                <div
+                  class="youtube-embed-wrapper"
+                  style="
+                    position: relative;
+                    width: 100%;
+                    height: 0;
+                    padding-top: 56.25%;
+                    padding-bottom: 0;
+                    box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
+                    margin-bottom: 0.9em;
+                    overflow: hidden;
+                    border-radius: 8px;
+                  "
+                >
+                  <iframe
+                    style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none"
+                    src="https://www.youtube.com/embed/inm4vFHqIps?si=q_GZexkf3kzDx7Mc"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="back-desc">
+                  這是我第一次接觸前端開發，實作了一個零食購物網站的前端介面。JavaScript
+                  的應用包含了購物車功能與商品篩選功能，增強了對使用者體驗設計的理解。
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card" data-img-folder="image/Project3/" data-img-count="15">
+            <div class="portfolio-card-inner">
+              <div class="portfolio-card-front">
+                <div class="portfolio-img-container">
+                  <img src="image/Project3/1.png" class="slide-img" alt="虛寶電商平台AI智能交易系統" />
+                </div>
+                <div class="portfolio-info">
+                  <h4>虛寶電商平台 AI 智能交易系統</h4>
+                  <p>
+                    資訊管理學系專題。開發結合 AI 智能交易系統的虛擬寶物電商平台，致力於解決資料庫與 AI
+                    助手資料提取及前台串聯的技術挑戰。
+                  </p>
+                </div>
+              </div>
+              <div class="portfolio-card-back">
+                <a href="https://canva.link/lcxru37qptxtm4s" target="_blank" class="video-link">
+                  <video muted loop playsinline class="back-video">
+                    <source src="video/Project3.mp4" type="video/mp4" />
+                  </video>
+                  <div class="video-overlay">點擊前往完整專題</div>
+                </a>
+                <div class="back-desc">
+                  致力於開發一個虛擬寶物電商平台，結合AI智能交易系統，以提升交易效率和用戶體驗。克服連結資料庫的同時設計AI助手的資料提取。
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card" data-img-folder="image/Project4/" data-img-count="13">
+            <div class="portfolio-card-inner">
+              <div class="portfolio-card-front">
+                <div class="portfolio-img-container">
+                  <img src="image/Project4/1.png" class="slide-img" alt="虛寶電商平台AI智能交易系統" />
+                </div>
+                <div class="portfolio-info">
+                  <h4>AI婚顧公司邀請系統</h4>
+                  <p>軟體專案期中設計之系統，用意在於解決婚禮邀請函的自動化生成。</p>
+                </div>
+              </div>
+              <div class="portfolio-card-back">
+                <a href="https://canva.link/zl74n7sy08nqjwe" target="_blank" class="video-link">
+                  <video muted loop playsinline class="back-video">
+                    <source src="video/Project4.mp4" type="video/mp4" />
+                  </video>
+                  <div class="video-overlay">點擊前往完整專題</div>
+                </a>
+                <div class="back-desc">
+                  致力於開發一個虛擬寶物電商平台，結合AI智能交易系統，以提升交易效率和用戶體驗。克服連結資料庫的同時設計AI助手的資料提取。
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience-section" id="experience">
+        <h2>工作經歷</h2>
+        <div class="experience-grid">
+          <div class="experience-card">
+            <div class="exp-header">
+              <h3>愛派司生技有限股份公司</h3>
+              <span>2020/7/06 - 2020/9/10<br />2021/7/06 - 2021/9/11</span>
+              <span class="location">新北市中和區橋和路21號3樓</span>
+            </div>
+            <div class="exp-body">
+              <h4 class="job-title">職稱: 品保部資訊工讀生</h4>
+              <p>
+                了解生技公司品保部內部運作邏輯，協助資訊相關工作。整理紙本檔案並電子檔案化，並從中分類出問題產品或者新舊產品，實行自動化
+              </p>
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <div class="exp-header">
+              <h3>DSV 百及物流_八德廠</h3>
+              <span>2023/07 - 2023/09</span>
+              <span class="location">桃園市八德區介壽路二段540號</span>
+            </div>
+            <div class="exp-body">
+              <h4 class="job-title">職稱: 物流理貨人員</h4>
+              <p>
+                了解大型電商的貨品進出模式，如何揀貨/理貨/包裝/出貨/盤點等一系列流程。在理貨當中除了對貨架商品進行檢查挑選外，也會使用電動機具(電動拖板車)來輔助作業，而物流線上的掃條碼和貨品包裝的檢驗等都是需要經過訓練後才能順利的解決貨量激增問題
+              </p>
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <div class="exp-header">
+              <h3>日翊大溪倉有限公司</h3>
+              <span>2025/08 - 2025/11</span>
+              <span class="location">桃園市大溪區新光東路76巷22-2號</span>
+            </div>
+            <div class="exp-body">
+              <h4 class="job-title">職稱: 物流理貨人員</h4>
+              <p>
+                了解從日班進貨倉到夜班理貨倉的流程，各式樣商品如何使用機器進行自動化分類而我從旁輔助，出倉時候該如把貨品堆疊至棧板，退貨倉刷退貨流程等。把籠車的貨品依序放置運輸帶上並分類貨品大小，紅外線機器會把貨品輸入至伺服器中並轉交給後續處理的單位，貨品經過二次分類由英文字母進行區隔並等至理貨同仁裝置物流籃後發送各地，退貨倉則是單獨處理下架或退貨之商品，上傳至貨品資料庫後確認有無錯誤
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer id="contact">
+        <h2>聯絡資訊</h2>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="contact-card-inner">
+              <div class="contact-front">
+                <a href="tel:+886975168961"><img src="image/icons/phone.png" alt="Phone Icon" /></a>
+              </div>
+              <div class="contact-back">
+                <h4>行動電話</h4>
+                <p>+886 975168961</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-inner">
+              <div class="contact-front">
+                <a href="mailto:jeffxiao623@gmail.com"><img src="image/icons/gmail.png" alt="Email Icon" /></a>
+              </div>
+              <div class="contact-back">
+                <h4>電子郵件</h4>
+                <p>jeffxiao623@gmail.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-inner">
+              <div class="contact-front">
+                <a href="https://line.me/ti/p/~0975168961" target="_blank"><img src="image/icons/line.png" alt="Line Icon" /></a>
+              </div>
+              <div class="contact-back">
+                <h4>Line</h4>
+                <p>ID: 0975168961</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-inner">
+              <div class="contact-front">
+                <a href="https://maps.google.com/?q=桃園市八德區中山路147號" target="_blank"
+                  ><img src="image/icons/map.png" alt="Location Icon"
+                /></a>
+              </div>
+              <div class="contact-back">
+                <h4>居住地點</h4>
+                <p>桃園市八德區中山路147號</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-inner">
+              <div class="contact-front">
+                <a href="https://facebook.com/jeffhsiao623" target="_blank"
+                  ><img src="image/icons/facebook.png" alt="Facebook Icon"
+                /></a>
+              </div>
+              <div class="contact-back">
+                <h4>FaceBook</h4>
+                <p>jeffhsiao623</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-inner">
+              <div class="contact-front">
+                <a href="https://instagram.com/jeffhsiao623" target="_blank"
+                  ><img src="image/icons/instagram.png" alt="Instagram Icon"
+                /></a>
+              </div>
+              <div class="contact-back">
+                <h4>Instagram</h4>
+                <p>jeffhsiao623</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>&copy; Copyright Jeffxiao All Rights Reserved</p>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      function animateProgress(circle) {
+        const targetPercent = parseInt(circle.getAttribute("data-percent"), 10);
+        let start = null;
+        const duration = 800;
+
+        function step(timestamp) {
+          if (!start) start = timestamp;
+          const progress = timestamp - start;
+          const current = Math.min(progress / duration, 1);
+
+          const easeOut = 1 - Math.pow(1 - current, 3);
+          const value = easeOut * targetPercent;
+
+          circle.style.setProperty("--p", value);
+
+          if (progress < duration) {
+            circle.dataset.animationId = requestAnimationFrame(step);
+          }
+        }
+
+        if (circle.dataset.animationId) {
+          cancelAnimationFrame(circle.dataset.animationId);
+        }
+        circle.dataset.animationId = requestAnimationFrame(step);
+      }
+
+      document.querySelectorAll(".skill-card").forEach((card) => {
+        const circle = card.querySelector(".progress-circle");
+
+        card.addEventListener("click", () => {
+          const isFlipped = card.classList.toggle("flipped");
+          if (isFlipped) {
+            animateProgress(circle);
+          } else {
+            if (circle.dataset.animationId) {
+              cancelAnimationFrame(circle.dataset.animationId);
+            }
+            circle.style.setProperty("--p", "0");
+          }
+        });
+
+        card.addEventListener("mouseenter", () => {
+          if (card.classList.contains("flipped")) {
+            animateProgress(circle);
+          }
+        });
+      });
+
+      document.querySelectorAll(".contact-card").forEach((card) => {
+        card.addEventListener("click", (e) => {
+          if (e.target.closest("a")) return;
+          card.classList.toggle("flipped");
+        });
+      });
+
+      document.querySelectorAll(".portfolio-card").forEach((card) => {
+        const img = card.querySelector(".slide-img");
+        const folder = card.getAttribute("data-img-folder");
+        const count = parseInt(card.getAttribute("data-img-count"), 10);
+        const video = card.querySelector(".back-video");
+        let slideInterval;
+        let currentIndex = 1;
+
+        card.addEventListener("mouseenter", () => {
+          slideInterval = setInterval(() => {
+            currentIndex++;
+            if (currentIndex > count) currentIndex = 1;
+            img.src = `${folder}${currentIndex}.png`;
+          }, 800);
+        });
+
+        card.addEventListener("mouseleave", () => {
+          clearInterval(slideInterval);
+          currentIndex = 1;
+          img.src = `${folder}1.png`;
+        });
+
+        card.addEventListener("click", (e) => {
+          if (e.target.closest("a") || e.target.closest(".youtube-embed-wrapper")) return;
+
+          const isFlipped = card.classList.toggle("flipped");
+          if (video) {
+            if (isFlipped) {
+              video.play();
+            } else {
+              video.pause();
+            }
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
